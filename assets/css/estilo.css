@@ -1,9 +1,9 @@
 div > p {
-    color: darkred;
+    color: rgb(0, 100, 139);
 }
 
 h2 ~ p {
-    color: red;
+    color: rgb(194, 149, 54);
 }
 
 
@@ -15,7 +15,7 @@ ul{
 
 nav{
     width: 100%;
-    background-color: lightgray;
+    background-color: rgb(216, 200, 127);
     padding: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -23,12 +23,12 @@ nav{
 
 .link{
     display: inline-block;
-    color: darkgreen;
+    color: rgb(248, 135, 29);
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    border-top: #1b1616 solid 1px;
-    border-bottom: #1b1616 solid 1px;
+    border-top: #f3eeee solid 1px;
+    border-bottom: #f3eeee solid 1px;
 }
 
 .link:hover{
@@ -56,3 +56,20 @@ body{
 img{
     width: 10%;
 }
+#sobre{
+    background-color: #1b1616;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+body{
+    background-color: #1d1c1c;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 10%;
+}
+
